@@ -1,16 +1,12 @@
-package com.andybiar.crossfitbot;
-
-import java.io.InputStream;
+package com.andybiar.webscraper;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
-import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
 
-public class Launcher {
+public class Core {
 	
 	public static void main(String[] args) {
 		CloseableHttpClient client = HttpClients.createMinimal();
